@@ -1,0 +1,202 @@
+body {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: "Montserrat-bold", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat-bold", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  padding: 10% 5%;
+}
+
+.section-heading {
+  font-family: "Montserrat-bold", sans-serif;
+  font-size: 2.5rem;
+  line-height: ;
+}
+
+/* Sections  */
+
+.colored-section {
+  background-color: black;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+  color: black;
+}
+
+/* Containers  */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Nav Bar  */
+
+.navbar {
+  background-color: #000000;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.2rem;
+}
+
+.download-button {
+  margin: 5% 3% 3% 0;
+}
+
+/* Title Section  */
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 1% 5%;
+}
+
+/* Title Image  */
+.title-image {
+  width: 60%;
+  right: 30%;
+}
+
+/* Feature Section  */
+#features {
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon-1 {
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.icon-1:hover {
+  color: blue;
+}
+
+.icon-2 {
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.icon-2:hover {
+  color: yellow;
+}
+
+.icon-3 {
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.icon-3:hover {
+  color: red;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+/* Testimonials Section */
+#testimonials {
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+/* Press Section  */
+#press {
+padding-bottom: : 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  font-size: 1.5rem;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 1% 2%;
+  margin: 10%;
+}
+
+.card {
+  padding: 0.5%;
+}
+
+.card-header {
+  background-color: white;
+}
+
+.dummy-icon {
+  opacity: 0;
+}
+
+.price-text {
+  font-size: 2rem;
+  line-height: 1.5rem;
+}
+
+/* CTA Section  */
+
+#cta {
+}
+
+.dragon-logo {
+  height: 500px;
+}
+
+
+/* Footer Section */
+
+#footer {
+}
+
+.social {
+  margin: 1rem;
+}
+
+@@media  (max-width: 1028px) {
+  #title {
+    text-align: center;
+}
